@@ -1,0 +1,21 @@
+{
+  "plugins": ["stylelint-order"],
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-standard-scss",
+    "stylelint-config-clean-order"
+  ],
+  "rules": {
+    "at-rule-no-unknown": null,
+    "scss/at-rule-no-unknown": true,
+    "string-quotes": "single",
+    "selector-id-pattern": null,
+    "selector-class-pattern": null,
+    "keyframes-name-pattern": null,
+    "color-function-notation": "legacy",
+    "alpha-value-notation": "number",
+    "value-no-vendor-prefix": null,
+    "max-line-length": null
+  },
+  "ignoreFiles": ["**/node_modules/**"]
+}
